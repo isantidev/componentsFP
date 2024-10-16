@@ -1,0 +1,124 @@
+.nav {
+    background-color: var(--background);
+    box-shadow: 0 -25px 30px 0 var(--background-100);
+}
+
+.nav-List {
+    max-width: 1600px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    padding: 12px 20px;
+}
+
+.logo a {
+    display: inline-block;
+    background-image: url("../images/logo-icon-stocksoft.png");
+    background-color: #fff;
+    height: 36px;
+    width: 36px;
+}
+
+.menu {
+    display: flex;
+}
+.menu li {
+    padding-left: 20px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu-cuentaUsuario img {
+    display: none;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--primary);
+    transition: 0.25s ease-in-out;
+}
+
+.menu li a:hover:after {
+    width: 100%;
+}
+.open-menu,
+.close-menu {
+    position: absolute;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {
+    display: none;
+}
+
+/* ---- configuración media ---- */
+
+@media (max-width: 720px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 1000;
+        background-color: var(--background);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu li {
+        margin-top: 40px;
+    }
+    .menu li a {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+    #check:checked ~ .menu {
+        right: 0;
+    }
+
+    .menu-cuentaUsuario {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .menu-cuentaUsuario img {
+        display: block;
+    }
+}

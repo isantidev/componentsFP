@@ -1,0 +1,19 @@
+.volver_contenedor {
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background-color: var(--backgroundDark);
+}
+
+.btn_volver {
+    display: inline-block;
+    text-decoration: none;
+    height: 32px;
+    width: 32px;
+}
+
+.btn_volver svg {
+    width: 32px;
+    height: 32px;
+    color: var(--background);
+}

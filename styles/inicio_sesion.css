@@ -1,0 +1,84 @@
+svg {
+    color: var(--text);
+    filter: drop-shadow(0 0 2px var(--accent));
+}
+
+.ingreso-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    max-width: 300px;
+    width: 250px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.ingreso-wrapper > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ingreso-form {
+    width: 80%;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.ingreso-input {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0.2em 0;
+    width: 100%;
+}
+
+.ingreso-input input {
+    padding: 10px 6px;
+    flex-basis: 0;
+    flex-grow: 1;
+    font-size: 0.8rem;
+    border: none;
+    border-left: 1em solid var(--primary);
+    border-radius: 0.5rem;
+    box-shadow: 25px 10px 20px -16px var(--text);
+}
+
+.ingreso-input > input:focus {
+    outline: 1px solid var(--primary);
+}
+
+.btn-envio {
+    min-width: 100%;
+    margin: 4px 8px;
+}
+
+.btn-envio > button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 6px;
+    background-color: var(--primary);
+    color: var(--background);
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    box-shadow: 0px 20px 20px -15px var(--text);
+}
+
+.ingreso-error {
+    display: none;
+    width: 100%;
+    background-color: var(--primary20);
+    color: var(--text);
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}

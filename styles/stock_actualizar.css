@@ -1,0 +1,89 @@
+.contenedor_form_stock {
+    max-width: 736px;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--secondary-10);
+    border-radius: 0.5rem;
+}
+
+.form_stock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.stock_input {
+    grid-column: span 3;
+}
+
+.stock_input:nth-child(2) {
+    grid-column: span 2;
+}
+
+.stock_input:nth-child(3) {
+    grid-column: span 1;
+}
+
+.stock_input label {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-90);
+    padding-left: 3px;
+}
+
+.stock_input input,
+.stock_input select,
+.stock_input button {
+    width: 100%;
+    cursor: pointer;
+}
+
+.stock_input input:focus-visible,
+.select:focus-visible {
+    outline: none;
+    border-color: var(--text);
+}
+
+.stock_input input,
+.stock_input select {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid var(--text-50);
+    color: var(--text);
+    background-color: transparent;
+}
+
+.select option {
+    background-color: var(--secondary-70);
+    color: var(--text-10);
+    cursor: progress;
+}
+
+.btn_enviar {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.btn_enviar button {
+    width: 100%;
+    height: 36px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--primary);
+    font-weight: bold;
+    opacity: 0.9;
+    color: var(--text-5);
+}
+
+.btn_enviar button:hover {
+    transform: translateY(-3px);
+    z-index: 100;
+    box-shadow: 0 10px 80px -10px var(--primary);
+    opacity: 1;
+}
