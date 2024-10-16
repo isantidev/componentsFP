@@ -33,7 +33,7 @@ require ROOT_PATH . 'php/registrar_producto.php';
         <div class="input_contenedor">
             <label for="select_proveedor">id - proveedor</label>
             <select name="select_id_proveedor" id="select_proveedor">
-                <option value="0">Seleccione un proveedor</option>
+                <option value="0" disabled selected>Seleccione un proveedor</option>
                 <?php
                 foreach ($proveedores as $proveedor) {
                     $option_proveedor = '<option value="' . $proveedor['proveedor_id'] . '">' . $proveedor['nombre'] . '</option>';
