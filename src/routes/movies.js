@@ -17,9 +17,9 @@ router.post("/", (req, res) => {
         const newMovie = { ...req.body, id };
         console.log(newMovie);
         movies.push(newMovie);
-        rmSync.jason(movies);
+        rmSync.json(movies);
     } else {
-        res.status(500).jason({ error: "Aquí hubo un error" });
+        res.status(500).json({ error: "Aquí hubo un error" });
     }
 });
 
