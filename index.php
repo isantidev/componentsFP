@@ -14,7 +14,7 @@
     </header>
     <main>
         <?php
-        include ROOT_PATH . 'frontend/usuario_crear.php';
+        include ROOT_PATH . 'frontend/proveedor_list.php';
         ?>
     </main>
     <footer>
