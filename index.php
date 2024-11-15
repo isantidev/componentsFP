@@ -4,6 +4,7 @@
 
 <head>
     <?php include ROOT_PATH . 'inc/head.php' ?>
+
 </head>
 
 <body>
@@ -13,9 +14,7 @@
         ?>
     </header>
     <main>
-        <?php
-        include ROOT_PATH . 'frontend/proveedor_list.php';
-        ?>
+        <div id="content"></div>
     </main>
     <footer>
         <?php

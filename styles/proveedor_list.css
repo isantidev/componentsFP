@@ -1,12 +1,3 @@
-/*
-contenedor_list_proveedor div
-proveedor_fila_contenedor div
-proveedor_fila ul
-proveedor_columna li
-    p
-    a
-*/
-
 .contenedor_list_proveedor {
     width: 100%;
     max-width: 1440px;
