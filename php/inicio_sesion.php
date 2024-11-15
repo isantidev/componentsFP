@@ -15,14 +15,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['btnIngresar'])) {
         exit();
     }
 
-    $private = $conn->prepare("SELECT * FROM producto");
-    $private->execute();
-    $privateUsu = $private->fetchAll(PDO::FETCH_ASSOC);
-    echo ($privateUsu);
+    $private = $conn->prepare("SELECT * FROM cuenta_usuario WHERE email = :correo");
+    $private->execute(['correo' => $email]);
+    $privateUsu = $private->fetch(PDO::FETCH_ASSOC);
 
-    /*   if ($email == $usuario['email']) {
+    if ($email === $privateUsu['email'] && $contrasena === $privateUsu['contrasena']) {
 
-        $userId = $usuario['cc_id'];
+        $userId = $privateUsu['cc_id'];
         $newStmt = $conn->prepare("SELECT * FROM datos_usuario WHERE cc_id = :id");
         $newStmt->execute(['id' => $userId]);
         $usuarioInfo = $newStmt->fetch();
@@ -39,5 +38,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['btnIngresar'])) {
         $_SESSION['errores'] = $errores;
         header('Location: ../frontend/iniciar_sesion_form.php');
         exit();
-    } */
+    }
 }
