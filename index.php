@@ -14,7 +14,7 @@
     </header>
     <main>
         <?php
-        include ROOT_PATH . 'frontend/registrarse_form.php';
+        include ROOT_PATH . 'frontend/usuario_crear.php';
         ?>
     </main>
     <footer>
