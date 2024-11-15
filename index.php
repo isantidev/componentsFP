@@ -14,9 +14,14 @@
     </header>
     <main>
         <?php
-        include ROOT_PATH . 'frontend/producto_registro.php';
+        include ROOT_PATH . 'frontend/registrarse_form.php';
         ?>
     </main>
+    <footer>
+        <?php
+        include ROOT_PATH . 'frontend/footer.php';
+        ?>
+    </footer>
 </body>
 
 </html>

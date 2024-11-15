@@ -160,6 +160,8 @@
 
 body {
     background-color: var(--background);
+    display: grid;
+    grid-template-rows: auto auto 1fr;
 }
 
 header {
@@ -171,6 +173,10 @@ header {
 
 main {
     padding: 0 2rem 1rem;
+}
+
+footer {
+    margin: 2rem;
 }
 
 .aviso_incorrecto,

@@ -4,7 +4,7 @@
 <div class="ingreso-wrapper">
     <img id="logo" src="/images/logo-stocksoft.png" alt="" />
     <form
-        action="../php/iniciar-sesion-process.php"
+        action="../php/inicio_sesion.php"
         class="ingreso-form"
         method="POST">
         <div class="ingreso-error">
@@ -50,7 +50,7 @@
         </div>
 
         <div class="btn-envio">
-            <button name="btnIngresar" type="submit">
+            <button name="btnIngresar" type="submit" value="Inicio Sesion">
                 Iniciar Sesión
             </button>
         </div>
