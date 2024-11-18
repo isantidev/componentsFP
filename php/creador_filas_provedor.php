@@ -1,20 +1,12 @@
 <?php
 include '../config.php';
 require ROOT_PATH . 'php/main.php';
+require ROOT_PATH . 'php/solicitar_datos_func.php';
 
 $fila = '';
 
-function solicitarDatos($tabla, $conexion)
-{
-    $sql = "SELECT * FROM $tabla";
-    $stmt = $conexion->prepare($sql);
-    $stmt->execute();
-    $row = $stmt->rowCount();
-    $resultados = ($row > 0) ? $stmt->fetchAll(PDO::FETCH_ASSOC) : 0;
-    return ['row' => $row, 'resultado' => $resultados];
-}
-
 $llamado = solicitarDatos('proveedor', $conn);
+var_dump($llamado);
 $row = $llamado['row'];
 $datos = $llamado['resultado'];
 

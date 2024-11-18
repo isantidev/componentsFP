@@ -1,8 +1,10 @@
 .inventario_wrapper {
     margin: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 25% 75%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 .stock_list_wrapper {
@@ -19,15 +21,49 @@
     background-color: var(--background-80);
     margin: auto;
 }
-
 .producto_fila_contenedor {
     border-bottom: 2px solid var(--primary-20);
 }
-
 .producto_fila_contenedor:hover {
     background-color: var(--background-90);
 }
-
 .contenedor_titulo_fila:hover {
     background-color: var(--background-80);
+}
+
+.producto_fila {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns:
+        minmax(80px, 120px)
+        minmax(60px, 20%)
+        minmax(80px, 120px)
+        minmax(50px, 120px)
+        minmax(120px, 2fr);
+    grid-template-rows: auto;
+}
+.producto_columna {
+    list-style: none;
+    max-height: 4rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.producto_columna:first-child {
+    font-weight: 600;
+}
+
+.titulo_columna {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.producto_columna p {
+    word-break: normal;
+    text-decoration: none;
+    text-wrap: balance;
+    margin: auto 0;
+    padding-inline: 1rem;
 }
