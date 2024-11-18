@@ -3,8 +3,8 @@
 </head>
 
 <div class="contenedor_titulo">
-    <h1 class="title">Productos</h1>
-    <h2 class="subtitle">Adicionar stock de productos</h2>
+    <h2 class="title">Productos</h2>
+    <p class="subtitle">Adicionar stock de productos</p>
 </div>
 
 <article class="contenedor_form_stock">

@@ -173,6 +173,7 @@ header {
 
 main {
     padding: 0 2rem 1rem;
+    max-width: 1440px;
 }
 
 footer {

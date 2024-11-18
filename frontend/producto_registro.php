@@ -4,8 +4,8 @@ require ROOT_PATH . 'php/registrar_producto.php';
 ?>
 
 <div class="contenedor_titulo">
-    <h1>Productos</h1>
-    <h2>Registro de productos</h2>
+    <h2>Productos</h2>
+    <p>Registro de productos</p>
 </div>
 
 <section class="registro_produ_contenedor">

@@ -5,8 +5,8 @@
 </head>
 
 <div class="contenedor_titulo">
-    <h1>USUARIOS</h1>
-    <h2>LISTA DE USUARIOS</h2>
+    <h2>USUARIOS</h2>
+    <p>LISTA DE USUARIOS</p>
 </div>
 <section class="usuario_list_contenedor">
     <?php include ROOT_PATH . "php/creador_filas.php" ?>

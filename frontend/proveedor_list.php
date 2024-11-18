@@ -5,8 +5,8 @@
 </head>
 
 <div class="contenedor_titulo">
-    <h1>Proveedor</h1>
-    <h2>Lista de proveedores</h2>
+    <h2>Proveedor</h2>
+    <p>Lista de proveedores</p>
 </div>
 
 <div class="contenedor_list_proveedor">

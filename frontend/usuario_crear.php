@@ -4,8 +4,8 @@
     <link rel="stylesheet" href="/styles/usuario_crear.css">
 </head>
 <div class="contenedor_titulo">
-    <h1>USUARIOS</h1>
-    <h2>Agregar usuario</h2>
+    <h2>USUARIOS</h2>
+    <p>Agregar usuario</p>
 </div>
 
 <div class="contenedor_form_crear_usuario">

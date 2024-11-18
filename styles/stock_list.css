@@ -1,0 +1,33 @@
+.inventario_wrapper {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.stock_list_wrapper {
+    height: 80dvh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.list_productos_wrapper {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-80);
+    margin: auto;
+}
+
+.producto_fila_contenedor {
+    border-bottom: 2px solid var(--primary-20);
+}
+
+.producto_fila_contenedor:hover {
+    background-color: var(--background-90);
+}
+
+.contenedor_titulo_fila:hover {
+    background-color: var(--background-80);
+}

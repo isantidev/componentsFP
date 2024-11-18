@@ -3,8 +3,8 @@
 </head>
 
 <div class="contenedor_titulo">
-    <h1>Proveedor</h1>
-    <h2>Registrar datos del proveedor</h2>
+    <h2>Proveedor</h2>
+    <p>Registrar datos del proveedor</p>
 </div>
 
 <div class="contenedor_form_proveedor">
