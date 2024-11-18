@@ -12,7 +12,7 @@
 
     <section class="stock_list_wrapper">
         <div class="contenedor_titulo">
-            <h3>INVENTARIO</h3>
+            <h2>INVENTARIO</h2>
             <p>Lista de productos</p>
         </div>
         <div class="list_productos_wrapper">

@@ -5,10 +5,10 @@
     margin: 1rem 0;
 }
 .contenedor_titulo h1,
-.contenedor_titulo h3 {
+.contenedor_titulo h2 {
     font-size: 3rem;
 }
-.contenedor_titulo h2,
+
 .contenedor_titulo p {
     font-size: 1.5rem;
     font-weight: 100;
