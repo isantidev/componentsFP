@@ -5,8 +5,7 @@ require ROOT_PATH . 'php/solicitar_datos_func.php';
 
 $fila = '';
 
-$llamado = solicitarDatos('proveedor', $conn);
-var_dump($llamado);
+$llamado = solicitarDatos('*', 'proveedor', $conn);
 $row = $llamado['row'];
 $datos = $llamado['resultado'];
 

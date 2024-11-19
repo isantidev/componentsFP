@@ -23,6 +23,7 @@
 }
 .producto_fila_contenedor {
     border-bottom: 2px solid var(--primary-20);
+    min-height: fit-content;
 }
 .producto_fila_contenedor:hover {
     background-color: var(--background-90);
@@ -32,6 +33,7 @@
 }
 
 .producto_fila {
+    min-height: fit-content;
     list-style: none;
     padding: 0;
     display: grid;
@@ -40,8 +42,8 @@
         minmax(60px, 20%)
         minmax(80px, 120px)
         minmax(50px, 120px)
-        minmax(120px, 2fr);
-    grid-template-rows: auto;
+        minmax(150px, 2fr);
+    grid-template-rows: repeat(auto, fit-content);
 }
 .producto_columna {
     list-style: none;
@@ -66,4 +68,12 @@
     text-wrap: balance;
     margin: auto 0;
     padding-inline: 1rem;
+}
+
+.columna_descripcion {
+    overflow: visible;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em;
+    line-height: 1.2em;
 }

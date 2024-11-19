@@ -1,8 +1,8 @@
 <?php
 
-function solicitarDatos($tabla, $conexion)
+function solicitarDatos($datos, $tabla, $conexion)
 {
-    $sql = "SELECT * FROM $tabla";
+    $sql = "SELECT $datos FROM $tabla";
     $stmt = $conexion->prepare($sql);
     $stmt->execute();
     $row = $stmt->rowCount();

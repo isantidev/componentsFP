@@ -35,27 +35,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="producto_fila_contenedor">
-                <ul class="producto_fila titulo_fila">
-                    <li class="producto_columna">
-                        <p data-text="ID: "> AB005 </p>
-                    </li>
-                    <li class="producto_columna">
-                        <p data-text="Nombre: ">Vaso de vidrio</p>
-                    </li>
-                    <li class="producto_columna">
-                        <p data-text="Precio: ">$720000</p>
-                    </li>
-                    <li class="producto_columna">
-                        <p data-text="Stock: ">1</p>
-                    </li>
-                    <li class="producto_columna columna_descripcion">
-                        <p data-text="Descripción: ">Freshly roasted, ideally within the past week or two, to ensure maximum flavor and antioxidant content.</p>
-                    </li>
-                </ul>
-            </div>
             <?php
-
+            require_once ROOT_PATH . 'php/creador_filas_inventario.php'
             ?>
         </div>
     </section>
