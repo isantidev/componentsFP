@@ -93,7 +93,7 @@
         position: fixed;
         top: 0;
         right: -100%;
-        z-index: 1000;
+        z-index: 1000000;
         background-color: var(--background);
         transition: all 0.2s ease-in-out;
     }
