@@ -4,7 +4,6 @@
 
 <head>
     <?php include ROOT_PATH . 'inc/head.php' ?>
-
 </head>
 
 <body>
