@@ -6,7 +6,7 @@
 
 <div class="inventario_wrapper">
     <div class="contenedor_titulo">
-        <h2>INVENTARIO</h2>
+        <h2>inventario</h2>
         <p>Lista de productos</p>
     </div>
     <article class="stock_utilidades_wrapper">
