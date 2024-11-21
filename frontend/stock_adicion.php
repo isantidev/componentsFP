@@ -1,4 +1,6 @@
 <head>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/titulo.css">
     <link rel="stylesheet" href="../styles/stock_actualizar.css">
 </head>
 

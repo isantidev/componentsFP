@@ -1,7 +1,7 @@
 <?php include '../config.php' ?>
 
 <head>
-    <link rel="stylesheet" href="../styles/stock_list.css">
+    <link rel="stylesheet" href="../styles/inventario_list.css">
 </head>
 
 <div class="inventario_wrapper">
@@ -11,7 +11,27 @@
     </div>
     <article class="stock_utilidades_wrapper">
         <!-- search - boton agregar - btn restar - btn update productos info -->
-        <p style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam placeat nemo, doloribus ipsum, sed autem neque laborum molestiae voluptates explicabo. Sit voluptas, consequatur dicta perferendis vitae velit distinctio aperiam?</p>
+        <search class="tag_search">
+            <form class="input-buscar">
+                <label for="btn-search-producto">🔍</label>
+                <input type="search" id="btn-search-producto">
+                <button type="submit">buscar</button>
+            </form>
+        </search>
+        <div class="btn_links_wrapper">
+            <label class="utilidad_producto actualizar_info_producto">
+                <a href="../frontend/producto_actualizar_info.php">Editar producto</a>
+            </label>
+            <label class="utilidad_producto agregar_stock_producto">
+                <a href="../frontend/stock_adicion.php">Agregar stock</a>
+            </label>
+            <label class="utilidad_producto disminuir_stock_producto">
+                <a href="../frontend/stock_resta.php">Disminuir stock</a>
+            </label>
+            <label class="utilidad_producto Eliminar_producto">
+                <a href="../frontend/producto_eliminar.php">Eliminar producto</a>
+            </label>
+        </div>
     </article>
 
     <section class="stock_list_wrapper">
@@ -36,7 +56,7 @@
                 </ul>
             </div>
             <?php
-            require_once ROOT_PATH . 'php/creador_filas_inventario.php'
+            require ROOT_PATH . 'php/creador_filas_inventario.php'
             ?>
         </div>
     </section>

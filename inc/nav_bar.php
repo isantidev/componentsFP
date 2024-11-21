@@ -9,9 +9,6 @@
                 <a href="javascript:void(0)" data-document="../frontend/inventario_list.php">INVENTARIO</a>
             </li>
             <li>
-                <a href="javascript:void(0)" data-document="../frontend/producto_list.php">PRODUCTOS</a>
-            </li>
-            <li>
                 <a href="javascript:void(0)" data-document="../frontend/proveedor_list.php">PROVEEDORES</a>
             </li>
             <li>

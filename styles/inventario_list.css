@@ -1,3 +1,5 @@
+/* Estilos del contenedor */
+
 .inventario_wrapper {
     margin: auto;
     min-width: 100%;
@@ -6,6 +8,40 @@
     align-items: center;
 }
 
+/* Estilos utilidades */
+.stock_utilidades_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0.5rem;
+}
+
+/* buttons */
+.btn_links_wrapper {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.utilidad_producto {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    background-color: var(--accent-20);
+}
+.utilidad_producto a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.utilidad_producto:hover a {
+    text-decoration: underline;
+}
+
+/* Estilos tabla - lista */
 .stock_list_wrapper {
     height: 80dvh;
     display: grid;
