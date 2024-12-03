@@ -12,8 +12,7 @@
         include ROOT_PATH . 'inc/nav_bar.php';
         ?>
     </header>
-    <main>
-        <div id="content"></div>
+    <main id="content">
     </main>
     <footer>
         <?php
