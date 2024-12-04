@@ -7,9 +7,6 @@ include ROOT_PATH . 'php/main.php';
     <link rel="stylesheet" href="../styles/producto_eliminar.css">
 </head>
 
-<?php
-include ROOT_PATH . 'inc/boton_regreso.php';
-?>
 <div class="producto_eliminar_wrapper">
     <form action="post" class="producto_eliminar_form" id="form-eliminar-producto">
         <input list="productos_list" name="productos_eleccion" id="productos_list_eleccion">

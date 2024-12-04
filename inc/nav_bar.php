@@ -40,6 +40,20 @@
                 </ul>
             </li>
             <li>
+                <a href="javascript:void(0)" data-document="../frontend/proveedor_list.php" class="menu_nav">PEDIDOS</a>
+                <ul class="menu_list_items">
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/proveedor_crear.php">Nuevo Pedido</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/proveedor_actualizar.php">Editar Pedido</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/proveedor_eliminar.php">Eliminar Pedido</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
                 <a href="javascript:void(0)" data-document="../frontend/usuario_list.php" class="menu_nav">USUARIOS</a>
                 <ul class="menu_list_items">
                     <li class="menu_item">
