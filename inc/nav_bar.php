@@ -12,7 +12,7 @@
                         <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Nuevo Producto</a>
                     </li>
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/producto_actualizar">Editar Producto</a>
+                        <a href="javascript:void(0)" data-document="../frontend/producto_actualizar.php">Editar Producto</a>
                     </li>
                     <li class="menu_item">
                         <a href="javascript:void(0)" data-document="../frontend/stock_adicion.php">Añadir Stock</a>
@@ -40,16 +40,16 @@
                 </ul>
             </li>
             <li>
-                <a href="javascript:void(0)" data-document="../frontend/proveedor_list.php" class="menu_nav">PEDIDOS</a>
+                <a href="javascript:void(0)" data-document="../frontend/pedidos_list.php" class="menu_nav">PEDIDOS</a>
                 <ul class="menu_list_items">
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/proveedor_crear.php">Nuevo Pedido</a>
+                        <a href="javascript:void(0)" data-document="../frontend/pedidos_crear.php">Nuevo Pedido</a>
                     </li>
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/proveedor_actualizar.php">Editar Pedido</a>
+                        <a href="javascript:void(0)" data-document="../frontend/pedidos_actualizar.php">Editar Pedido</a>
                     </li>
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/proveedor_eliminar.php">Eliminar Pedido</a>
+                        <a href="javascript:void(0)" data-document="../frontend/pedidos_eliminar.php">Eliminar Pedido</a>
                     </li>
                 </ul>
             </li>
