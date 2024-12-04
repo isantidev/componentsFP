@@ -29,13 +29,13 @@
                 <a href="javascript:void(0)" data-document="../frontend/proveedor_list.php" class="menu_nav">PROVEEDORES</a>
                 <ul class="menu_list_items">
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Nuevo Proveedor</a>
+                        <a href="javascript:void(0)" data-document="../frontend/proveedor_crear.php">Nuevo Proveedor</a>
                     </li>
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Editar Proveedor</a>
+                        <a href="javascript:void(0)" data-document="../frontend/proveedor_actualizar.php">Editar Proveedor</a>
                     </li>
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Eliminar Proveedor</a>
+                        <a href="javascript:void(0)" data-document="../frontend/proveedor_eliminar.php">Eliminar Proveedor</a>
                     </li>
                 </ul>
             </li>
@@ -43,13 +43,13 @@
                 <a href="javascript:void(0)" data-document="../frontend/usuario_list.php" class="menu_nav">USUARIOS</a>
                 <ul class="menu_list_items">
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Nuevo Usuario</a>
+                        <a href="javascript:void(0)" data-document="../frontend/usuario_crear.php">Nuevo Usuario</a>
                     </li>
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Editar Usuario</a>
+                        <a href="javascript:void(0)" data-document="../frontend/usuario_actualizar.php">Editar Usuario</a>
                     </li>
                     <li class="menu_item">
-                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Eliminar Usuario</a>
+                        <a href="javascript:void(0)" data-document="../frontend/usuario_eliminar.php">Eliminar Usuario</a>
                     </li>
                 </ul>
             </li>
