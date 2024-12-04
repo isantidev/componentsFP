@@ -6,16 +6,55 @@
         <input type="checkbox" id="check" />
         <span class="menu">
             <li>
-                <a href="javascript:void(0)" data-document="../frontend/inventario_list.php">INVENTARIO</a>
+                <a href="javascript:void(0)" data-document="../frontend/inventario_list.php" class="menu_nav">INVENTARIO</a>
+                <ul class="menu_list_items">
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Nuevo Producto</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_actualizar">Editar Producto</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/stock_adicion.php">Añadir Stock</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/stock_resta.php">Disminuir Stock</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_eliminar.php">Eliminar Producto</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="javascript:void(0)" data-document="../frontend/proveedor_list.php">PROVEEDORES</a>
+                <a href="javascript:void(0)" data-document="../frontend/proveedor_list.php" class="menu_nav">PROVEEDORES</a>
+                <ul class="menu_list_items">
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Nuevo Proveedor</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Editar Proveedor</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Eliminar Proveedor</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="javascript:void(0)" data-document="../frontend/usuario_list.php">USUARIOS</a>
+                <a href="javascript:void(0)" data-document="../frontend/usuario_list.php" class="menu_nav">USUARIOS</a>
+                <ul class="menu_list_items">
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Nuevo Usuario</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Editar Usuario</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="javascript:void(0)" data-document="../frontend/producto_registro.php">Eliminar Usuario</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="javascript:void(0)" data-document="../frontend/actual_usuario.php">CUENTA</a>
+                <a href="javascript:void(0)" data-document="../frontend/actual_usuario.php" class="menu_nav">CUENTA</a>
             </li>
             <label for="check" class="close-menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">

@@ -10,7 +10,6 @@
         <p>Lista de productos</p>
     </div>
     <article class="stock_utilidades_wrapper">
-        <!-- search - boton agregar - btn restar - btn update productos info -->
         <search class="tag_search">
             <form class="input-buscar">
                 <label for="btn-search-producto">🔍</label>
@@ -18,20 +17,6 @@
                 <button type="submit">buscar</button>
             </form>
         </search>
-        <div class="btn_links_wrapper">
-            <label class="utilidad_producto actualizar_info_producto">
-                <a href="../frontend/producto_actualizar_info.php">Editar producto</a>
-            </label>
-            <label class="utilidad_producto agregar_stock_producto">
-                <a href="../frontend/stock_adicion.php">Agregar stock</a>
-            </label>
-            <label class="utilidad_producto disminuir_stock_producto">
-                <a href="../frontend/stock_resta.php">Disminuir stock</a>
-            </label>
-            <label class="utilidad_producto Eliminar_producto">
-                <a href="../frontend/producto_eliminar.php">Eliminar producto</a>
-            </label>
-        </div>
     </article>
 
     <section class="stock_list_wrapper">

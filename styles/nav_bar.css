@@ -81,6 +81,24 @@
     display: none;
 }
 
+.menu_list_items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    z-index: inherit;
+    background-color: var(--background);
+}
+
+.menu_nav:hover ~ .menu_list_items,
+.menu_list_items:hover {
+    display: flex;
+}
+
+.menu_item {
+    padding: 0.5rem !important;
+    list-style: none;
+}
+
 /* ---- configuración media ---- */
 
 @media (max-width: 720px) {

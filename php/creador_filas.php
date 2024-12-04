@@ -34,6 +34,3 @@ if ($usuario->rowCount() > 0) {
         echo $fila;
     }
 }
-
-?>
-<p style="display: none;"></p>
