@@ -1,6 +1,6 @@
-<?php include '../componentsFP/config.php'; ?>
+<?php include 'config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <?php include ROOT_PATH . 'inc/head.php' ?>
@@ -12,7 +12,8 @@
         include ROOT_PATH . 'inc/nav_bar.php';
         ?>
     </header>
-    <main id="content">
+    <main>
+
     </main>
     <footer>
         <?php
