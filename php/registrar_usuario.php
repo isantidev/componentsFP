@@ -1,6 +1,5 @@
 <?php
 include '../config.php';
-
 require ROOT_PATH . 'php/main.php';
 
 if ($_POST) {
@@ -44,13 +43,13 @@ if ($_POST) {
             $stmt_cuenta->execute([':id' => $identificador_usu, ':email' => $correo_usu, ':pass' => $contrasena_usu]);
 
             $message = '<p class="aviso_correcto"> El usuario ha sido registrado correctamente </p>';
-            header("Location: ../index.php");
+            header("Location: ../frontend/usuario_crear.php");
         } else {
             $message = '<p class="aviso_incorrecto"> Ha sucedido un problema al registrar el usuario </p>';
             echo $message;
         }
     } else {
         $message = '<p class="aviso_incorrecto"> El usuario ya se encuentra registrado </p>';
-        header("Location: ../index.php");
+        header("Location: ../frontend/usuario_crear.php");
     }
 }

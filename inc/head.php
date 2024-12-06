@@ -5,5 +5,3 @@
 <link rel="stylesheet" href="../styles/styles.css">
 <link rel="stylesheet" href="../styles/nav_bar.css">
 <link rel="stylesheet" href="../styles/titulo.css">
-
-<script src="../js/dinamic_page.js"></script>

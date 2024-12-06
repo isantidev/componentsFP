@@ -20,5 +20,5 @@ if ($_POST) {
     $sql = "INSERT INTO proveedor (nombre, direccion, pagina_web, contacto, correo) VALUES (:nombre, :dir, :web, :contacto, :correo);";
     $stmt = $conn->prepare($sql);
     $stmt->execute([':nombre' => $nombre, ':dir' => $direccion, ':web' => $path_web, ':contacto' => $contacto, ':correo' => $correo]);
-    header("Location: ../index.php");
+    header("Location: ../frontend/proveedor_crear.php");
 }

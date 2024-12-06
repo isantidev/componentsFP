@@ -21,5 +21,5 @@ if ($_POST) {
         ':precio' => $precio_producto,
         ':proveedor' => $proveedor_id
     ]);
-    header('Location: ../index.php');
+    header('Location: ../frontend/producto_registro.php');
 }

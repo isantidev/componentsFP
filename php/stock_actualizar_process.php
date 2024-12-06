@@ -75,5 +75,5 @@ if ($_POST) {
     }
 
     registrarModificacionStock($conn, $proceso, $producto_id, $cantidad, $fecha, $usuario_id);
-    header("Location: ../index.php");
+    header("Location: ../frontend/usuario_list.php");
 }
