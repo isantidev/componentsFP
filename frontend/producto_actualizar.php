@@ -48,7 +48,7 @@ $productos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                     try {
                         // Solicitar los datos desde producto_info.php
-                        const response = await fetch("../php/producto_info.php");
+                        const response = await fetch("../php/solicitud_datos/producto_info.php");
                         productos = await response.json();
 
                         getValueSelected.addEventListener('change', () => {

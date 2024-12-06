@@ -1,5 +1,5 @@
 <?php
-include '../config.php';
+include '../../config.php';
 require ROOT_PATH . 'php/main.php';
 
 $producto_info = "SELECT * FROM producto";

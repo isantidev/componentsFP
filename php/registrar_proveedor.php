@@ -17,6 +17,8 @@ if ($_POST) {
     $contacto = limpiar_cadena($contacto);
     $correo = limpiar_cadena($correo);
 
+    if ($path_web == 'https://' || $path_web == '') $path_web = 'No registra';
+
     $sql = "INSERT INTO proveedor (nombre, direccion, pagina_web, contacto, correo) VALUES (:nombre, :dir, :web, :contacto, :correo);";
     $stmt = $conn->prepare($sql);
     $stmt->execute([':nombre' => $nombre, ':dir' => $direccion, ':web' => $path_web, ':contacto' => $contacto, ':correo' => $correo]);

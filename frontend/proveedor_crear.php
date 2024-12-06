@@ -36,7 +36,7 @@
                 </div>
                 <div class="contenedor_input ctn-web">
                     <label for="direccion_prove">Página web del proveedor: <strong style="font-weight:300; font-style: italic; color: var(--text-80);"> (En caso de no contar con punto físico) </strong> </label>
-                    <input type="text" name="web_proveedor" id="web_prove" placeholder="www.stocksoft.com" autocomplete="off">
+                    <input type="text" name="web_proveedor" id="web_prove" placeholder="https://www.stocksoft.com" autocomplete="off" value="https://">
                 </div>
                 <div class="contenedor_input ctn-correo">
                     <label for="correo_prove">Correo del proveedor:<strong style="font-weight:300; font-style: italic; color: var(--text-80);"> (Opcional) </strong></label>
