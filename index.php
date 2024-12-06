@@ -3,6 +3,8 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include ROOT_PATH . 'inc/head.php' ?>
     <link rel="stylesheet" href="styles/index-slider.css">
     <link rel="stylesheet" href="styles/index-card.css">

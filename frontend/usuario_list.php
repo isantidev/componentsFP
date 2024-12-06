@@ -20,7 +20,7 @@
             <p>Lista de usuarios</p>
         </div>
         <section class="usuario_list_contenedor">
-            <?php include ROOT_PATH . "php/creador_filas.php" ?>
+            <?php include ROOT_PATH . "php/creador_filas_usuario.php" ?>
         </section>
     </main>
     <footer>
