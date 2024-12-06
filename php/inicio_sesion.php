@@ -28,8 +28,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['btnIngresar'])) {
 
         $_SESSION['usuario'] = [
             'id' => $usuarioInfo['cc_id'],
+            'nombre' => $usuarioInfo['nombre_completo'],
             'correo' => $usuarioInfo['email'],
-            'nombre' => $usuarioInfo['nombre_completo']
+            'contacto' => $usuarioInfo['contacto'],
         ];
         header('Location: ../index.php');
         exit();
