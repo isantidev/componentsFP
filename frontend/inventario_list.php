@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <?php include ROOT_PATH . 'inc/head.php' ?>
     <link rel="stylesheet" href="../styles/inventario_list.css">
 </head>

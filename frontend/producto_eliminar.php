@@ -7,6 +7,7 @@ include ROOT_PATH . 'php/main.php';
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
     <?php include ROOT_PATH . 'inc/head.php' ?>
     <link rel="stylesheet" href="../styles/producto_eliminar.css">
 </head>

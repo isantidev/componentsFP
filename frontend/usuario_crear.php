@@ -3,6 +3,7 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
     <?php include ROOT_PATH . 'inc/head.php' ?>
     <link rel="stylesheet" href="/styles/usuario_crear.css">
 </head>
