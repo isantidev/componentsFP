@@ -40,7 +40,7 @@
                 </ul>
             </li>
             <li>
-                <a href="../frontend/pedidos_list.php" class="menu_nav">PEDIDOS</a>
+                <a href="../frontend/pedido_list.php" class="menu_nav">PEDIDOS</a>
                 <ul class="menu_list_items">
                     <li class="menu_item">
                         <a href="../frontend/pedido_registrar.php">Nuevo Pedido</a>
