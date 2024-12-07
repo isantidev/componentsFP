@@ -1,4 +1,5 @@
 const getValueSelected = document.getElementById("select_proveedor_id");
+const getProductoValue = document.getElementById("select_producto_pedido");
 
 document.addEventListener("DOMContentLoaded", async () => {
     let productos = [];
@@ -35,6 +36,14 @@ document.addEventListener("DOMContentLoaded", async () => {
                     selectProductos.appendChild(option);
                 }
             }
+        });
+
+        getProductoValue.addEventListener("change", () => {
+            const valueProducto = document.getElementById("nombre_producto");
+            const productoNombre = productos.find((producto) => {
+                return producto.producto_id == getProductoValue.value;
+            });
+            valueProducto.value = productoNombre.nombre;
         });
     } catch (e) {
         console.error("No se encontraron proveedor: ", e);

@@ -28,7 +28,7 @@ $productos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="wrapper_pedido_registro">
             <form action="../php/registrar_pedido.php" method="post" class="form_pedido_registro">
                 <div class="input_contenedor">
-                    <label for="cantidad_producto">Id de pedido: *</label>
+                    <label for="pedido_id">Id de pedido: *</label>
                     <input type="text" name="id_pedido" id="pedido_id" required min="3">
                 </div>
                 <div class="input_contenedor contenedor_select">
@@ -48,13 +48,14 @@ $productos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         ?>
                     </select>
                 </div>
-                <div class="input_contenedor contenedor_select">
+                <div class=" input_contenedor contenedor_select">
                     <label for="select_producto_pedido">Producto: </label>
                     <select name="select_id_producto" id="select_producto_pedido">
                         <option value="" selected disabled>Seleccione un producto</option>
                     </select>
                     <script src="../js/dinamic_pedido_select.js"></script>
                 </div>
+                <input type="text" name="nombre_producto_selected" id="nombre_producto" style="display: none;">
                 <div class="input_contenedor">
                     <label for="cantidad_producto">Cantidad</label>
                     <input type="number" name="cantidad_producto" id="cantidad_producto" autocomplete="off" required min="1">
@@ -63,11 +64,6 @@ $productos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="input_contenedor">
                     <label for="fecha_pedido">Fecha del pedido</label>
                     <input type="date" name="fecha_pedido" id="fecha_pedido" required>
-                </div>
-
-                <div class="input_contenedor">
-                    <label for="select_usuario">ID del usuario</label>
-                    <input type="number" name="usuario_id" id="select_usuario" autocomplete="off" required>
                 </div>
 
                 <div class="input_contenedor btn-enviar">
