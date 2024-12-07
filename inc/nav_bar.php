@@ -43,13 +43,13 @@
                 <a href="../frontend/pedidos_list.php" class="menu_nav">PEDIDOS</a>
                 <ul class="menu_list_items">
                     <li class="menu_item">
-                        <a href="../frontend/pedidos_crear.php">Nuevo Pedido</a>
+                        <a href="../frontend/pedido_registrar.php">Nuevo Pedido</a>
                     </li>
                     <li class="menu_item">
-                        <a href="../frontend/pedidos_actualizar.php">Editar Pedido</a>
+                        <a href="../frontend/pedido_actualizar.php">Editar Pedido</a>
                     </li>
                     <li class="menu_item">
-                        <a href="../frontend/pedidos_eliminar.php">Eliminar Pedido</a>
+                        <a href="../frontend/pedido_eliminar.php">Eliminar Pedido</a>
                     </li>
                 </ul>
             </li>
