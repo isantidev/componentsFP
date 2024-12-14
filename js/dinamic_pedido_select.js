@@ -39,11 +39,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
 
         getProductoValue.addEventListener("change", () => {
-            const valueProducto = document.getElementById("nombre_producto");
+            const producto = document.getElementById("nombre_producto");
             const productoNombre = productos.find((producto) => {
                 return producto.producto_id == getProductoValue.value;
             });
-            valueProducto.value = productoNombre.nombre;
+            producto.value = productoNombre.nombre;
         });
     } catch (e) {
         console.error("No se encontraron proveedor: ", e);
