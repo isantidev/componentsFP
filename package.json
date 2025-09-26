@@ -1,0 +1,17 @@
+{
+    "name": "componentsfp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.21.2",
+        "morgan": "^1.10.1",
+        "underscore": "^1.13.7"
+    }
+}
