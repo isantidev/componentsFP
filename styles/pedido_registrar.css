@@ -1,0 +1,94 @@
+.wrapper_pedido_registro {
+    max-width: 1440px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--text);
+}
+
+.form_pedido_registro {
+    padding: 1rem 2rem;
+    background-color: var(--background-20);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 512px;
+}
+
+.form_pedido_registro h4 {
+    place-self: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.input_contenedor {
+    display: flex;
+    flex-direction: column;
+}
+.input_contenedor label {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-90);
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.input_contenedor input {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid var(--text-50);
+    color: var(--text);
+    background-color: transparent;
+}
+
+.input_contenedor input::placeholder {
+    padding-left: 4px;
+}
+
+.input_contenedor input:focus-visible {
+    outline: none;
+    border-color: var(--text);
+}
+
+.input_contenedor input::-webkit-outer-spin-button,
+.input_contenedor input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.contenedor_select {
+    gap: 0.5rem;
+}
+
+.contenedor_select select {
+    height: 36px;
+    border-radius: 0.5rem;
+    color: var(--textDark);
+}
+.btn-enviar {
+    width: 80%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.btn-enviar button {
+    width: 100%;
+    height: 36px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--primary);
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.btn-enviar button:hover {
+    transform: translateY(-3px);
+    z-index: 100;
+    box-shadow: 0 10px 60px -10px var(--primary);
+    opacity: 1;
+}

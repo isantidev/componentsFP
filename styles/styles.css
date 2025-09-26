@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+:root {
+    --text: #eff0eb;
+    --background: #080906;
+    --primary: #c8d4aa;
+    --secondary: #3b4521;
+    --accent: #abcb57;
+
+    --textDark: #13140f;
+    --backgroundDark: #f8f9f6;
+    --primaryDark: #49552b;
+    --secondaryDark: #d4deba;
+    --accentDark: #87a834;
+
+    --text-100: #f3f4f0;
+    --text-90: #e8e9e2;
+    --text-80: #d0d3c5;
+    --text-70: #b9bda8;
+    --text-60: #a2a78b;
+    --text-50: #8a916e;
+    --text-40: #6f7458;
+    --text-30: #535742;
+    --text-20: #373a2c;
+    --text-10: #1c1d16;
+    --text-5: #0e0f0b;
+
+    --background-100: #f3f5f0;
+    --background-90: #e7ebe0;
+    --background-80: #cfd6c2;
+    --background-70: #b8c2a3;
+    --background-60: #a0ad85;
+    --background-50: #889966;
+    --background-40: #6d7a52;
+    --background-30: #525c3d;
+    --background-20: #363d29;
+    --background-10: #1b1f14;
+    --background-5: #0e0f0a;
+
+    --primary-100: #f4f6ee;
+    --primary-90: #e9eedd;
+    --primary-80: #d3ddbb;
+    --primary-70: #bdcc99;
+    --primary-60: #a8bb77;
+    --primary-50: #92aa55;
+    --primary-40: #758844;
+    --primary-30: #576633;
+    --primary-20: #3a4422;
+    --primary-10: #1d2211;
+    --primary-5: #0f1109;
+
+    --secondary-100: #f4f7ee;
+    --secondary-90: #e9eedd;
+    --secondary-80: #d4deba;
+    --secondary-70: #becd98;
+    --secondary-60: #a8bd75;
+    --secondary-50: #93ac53;
+    --secondary-40: #758a42;
+    --secondary-30: #586732;
+    --secondary-20: #3b4521;
+    --secondary-10: #1d2211;
+    --secondary-5: #0f1108;
+
+    --accent-100: #f5f9eb;
+    --accent-90: #ebf3d8;
+    --accent-80: #d8e7b1;
+    --accent-70: #c4db8a;
+    --accent-60: #b0cf63;
+    --accent-50: #9dc33c;
+    --accent-40: #7d9c30;
+    --accent-30: #5e7524;
+    --accent-20: #3f4e18;
+    --accent-10: #1f270c;
+    --accent-5: #101406;
+
+    --background-error: #822a30;
+    --text-error: #dbb4b6;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Ubuntu, monospace, sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    padding: 0 2rem 1rem;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+footer {
+    margin: 2rem;
+}
+
+.aviso_incorrecto,
+.aviso_correcto {
+    max-width: 600px;
+    width: 100%;
+}
+
+.aviso_correcto {
+    background-color: var(--primary);
+    color: var(--text-20);
+}
+
+.aviso_incorrecto {
+    background-color: var(--background-error);
+    color: var(--text-error);
+}

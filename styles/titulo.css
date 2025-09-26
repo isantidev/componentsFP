@@ -1,0 +1,17 @@
+.contenedor_titulo {
+    color: var(--text-90);
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+}
+.contenedor_titulo h1,
+.contenedor_titulo h2 {
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.contenedor_titulo p {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 100;
+}

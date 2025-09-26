@@ -1,0 +1,114 @@
+/* Estilos del contenedor */
+
+.inventario_wrapper {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+/* Estilos utilidades */
+.stock_utilidades_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0.5rem;
+}
+
+/* buttons */
+.btn_links_wrapper {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.utilidad_producto {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    background-color: var(--accent-20);
+}
+.utilidad_producto a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.utilidad_producto:hover a {
+    text-decoration: underline;
+}
+
+/* Estilos tabla - lista */
+.stock_list_wrapper {
+    height: 80dvh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.list_productos_wrapper {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-80);
+    margin: auto;
+}
+.producto_fila_contenedor {
+    border-bottom: 2px solid var(--primary-20);
+    min-height: fit-content;
+}
+.producto_fila_contenedor:hover {
+    background-color: var(--background-90);
+}
+.contenedor_titulo_fila:hover {
+    background-color: var(--background-80);
+}
+
+.producto_fila {
+    min-height: fit-content;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns:
+        minmax(80px, 120px)
+        minmax(60px, 20%)
+        minmax(80px, 120px)
+        minmax(50px, 120px)
+        minmax(150px, 2fr);
+    grid-template-rows: repeat(auto, fit-content);
+}
+.producto_columna {
+    list-style: none;
+    max-height: 4rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.producto_columna:first-child {
+    font-weight: 600;
+}
+
+.titulo_columna {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.producto_columna p {
+    word-break: normal;
+    text-decoration: none;
+    text-wrap: balance;
+    margin: auto 0;
+    padding-inline: 1rem;
+}
+
+.columna_descripcion {
+    overflow: visible;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em;
+    line-height: 1.2em;
+}

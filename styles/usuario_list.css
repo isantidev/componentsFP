@@ -1,0 +1,108 @@
+.usuario_list_contenedor {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.usuario_fila_contenedor:nth-child(odd) {
+    background-color: var(--primary-20);
+}
+
+.usuario_fila_contenedor:nth-child(2n) {
+    background-color: var(--background-10);
+}
+
+.usuario_fila {
+    display: grid;
+    grid-template-columns: 13rem repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    list-style: none;
+    padding: 1.6rem;
+    gap: 1.2rem;
+}
+
+.usuario_columna {
+    align-self: center;
+    color: var(--text);
+}
+
+.usuario_columna:first-child {
+    background-color: transparent;
+    grid-area: 2 span / 1 span;
+    margin: auto;
+}
+
+.usuario_columna img {
+    height: 8rem;
+    object-fit: cover;
+    display: block;
+}
+
+.usuario_columna p {
+    word-break: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.columna_correo a {
+    display: block;
+    word-break: break-all;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.columna_correo a:is(:hover, :focus) {
+    text-decoration: underline;
+}
+
+.columna_contacto:hover a {
+    text-decoration: underline;
+}
+
+.columna_contacto a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.usuario_columna p::before,
+.usuario_columna a::before {
+    content: attr(data-texto);
+    font-size: 0.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: baseline;
+}
+
+@media (max-width: 650px) {
+    .usuario_list_contenedor {
+        flex-direction: column;
+    }
+
+    .usuario_fila_contenedor {
+        border: none;
+    }
+
+    .usuario_fila {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fill, minmax(32px, auto));
+    }
+
+    .usuario_fila .usuario_columna:first-child {
+        background-color: var(--background-10);
+    }
+
+    .usuario_columna:first-child {
+        background-color: var(--background-10);
+        grid-area: span 1 / span 1;
+    }
+
+    .usuario_columna {
+        grid-area: auto;
+    }
+}

@@ -1,0 +1,92 @@
+.wrapper_usuario_actualizar {
+    max-width: 1440px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--text);
+}
+
+.selected_usuario_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    background-color: var(--primary-60);
+    border-radius: 1.5rem;
+    color: var(--text-10);
+    font-weight: 600;
+}
+
+.selected_usuario_input select {
+    background-color: var(--secondary-5);
+    color: var(--text);
+    font-weight: 400;
+    min-height: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.contenedor_form_usuario_actualizar {
+    width: 500px;
+    min-width: 400px;
+}
+
+.form_actualizar_usuario {
+    padding: 2rem;
+    background-color: var(--secondary-10);
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.contenedor_input label {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-80);
+    text-transform: capitalize;
+}
+
+.contenedor_input input {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid var(--text-50);
+    color: var(--text);
+    background-color: transparent;
+}
+
+.contenedor_input input:focus-visible {
+    outline: none;
+    border-color: var(--text);
+}
+
+.contenedor_input input::-webkit-outer-spin-button,
+.contenedor_input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.btn_enviar {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.btn_enviar button {
+    width: 100%;
+    height: 36px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--primary);
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.btn_enviar button:hover {
+    transform: translateY(-3px);
+    z-index: 100;
+    box-shadow: 0 10px 80px -10px var(--primary);
+    opacity: 1;
+}
